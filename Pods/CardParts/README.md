@@ -56,6 +56,8 @@ CardParts - made with ❤️ by Intuit:
     - [Card States](#card-states)
     - [Data Binding](#data-binding)
     - [Themes](#themes)
+    - [Clickable Cards](#clickable-cards)
+    - [Listeners](#listeners)
 - [Apps That Love CardParts](#apps-that-love-cardparts)
 - [License](#license)
 
@@ -261,11 +263,17 @@ cornerRadius: 10.0 <br/>
 </p>
 
 #### `GradientCardTrait`
-Use this protocol to add a gradient background for the card. The gradients will be added vertically from top to bottom.
+Use this protocol to add a gradient background for the card. The gradients will be added vertically from top to bottom. Optionally you can apply an angle to the gradient. Angles are defined in degrees, any negative or positive degree value is valid.
 ```swift
     func gradientColors() -> [UIColor] {
         return [UIColor.lavender, UIColor.aqua]
     }
+    
+    func gradientAngle() -> Float {
+        return 45.0
+    }
+    
+
 ```
 <p align="center">
 <img src="images/gradient.png" width="300" alt="Shadow radius 10.0"/>
@@ -356,7 +364,7 @@ CardPartButtonView displays a single button.
 
 CardPartButtonView exposes the following reactive properties that can be bound to view model properties:
 ```swift
-var title: String?
+var buttonTitle: String?
 var isSelected: Bool?
 var isHighlighted: Bool?
 var contentHorizontalAlignment: UIControlContentHorizontalAlignment
@@ -368,6 +376,20 @@ var tintColor: UIColor?
 ```
 #### `CardPartTitleView`
 CardPartTitleView displays a view with a title, and an optional options menu. The initializer requires a type parameter which can be set to either titleOnly or titleWithMenu. If the type is set to titleWithMenu the card part will display a menu icon, that when tapped will display a menu containing the options specified in the menuOptions array. The menuOptionObserver property can be set to a block that will be called when the user selects an item from the menu.
+
+As an example for a title with menu buttons:
+```swift
+let titlePart = CardPartTitleView(type: .titleWithMenu)
+titlePart.menuTitle = "Hide this offer"
+titlePart.menuOptions = ["Hide"]
+titlePart.menuOptionObserver  = {[weak self] (title, index) in
+    // Logic to determine which menu option was clicked
+    // and how to respond
+    if index == 0 {
+        self?.hideOfferClicked()
+    }
+}
+```
 
 CardPartButtonView exposes the following reactive properties that can be bound to view model properties:
 ```swift
@@ -579,7 +601,7 @@ class MyCustomCollectionViewCell: CardPartCollectionViewCardPartsCell {
         mainSV.alignment = .center
         mainSV.spacing = 10
 
-        mainSV.addArrangedSubview(imageCP)
+        mainSV.addArrangedSubview(titleCP)
         mainSV.addArrangedSubview(descriptionCP)
 
         setupCardParts([mainSV])
@@ -757,6 +779,31 @@ public class YourCardPartTheme: CardPartsTheme {
 }
 ```
 And then in your `AppDelegete` call `YourCardPartTheme().apply()` it apply your theme.
+
+## Clickable Cards
+You have the ability to add a tap action for each [state](#card-states) of any given card. If a part of the card is clicked, the given action will be fired:
+
+```swift
+self.cardTapped(forState: .empty) {
+    print("Card was tapped in .empty state!")
+}
+
+self.cardTapped(forState: .hasData) {
+    print("Card was tapped in .hasData state!")
+}
+
+// The default state for setupCardParts([]) is .none
+self.cardTapped {
+    print("Card was tapped in .none state")
+}
+```
+
+*Note: It is always a good idea to weakify self in a closure:*
+```swift
+{[weak self] in
+
+}
+```
 
 ## Listeners
 Card Parts also support a listener that allows you to listen to visibility changes in the cards that you have created. In your `CardPartsViewController` you may override the following function to gain insight into the visibility of your card within the `CardsViewController` you have created.

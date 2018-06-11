@@ -15,7 +15,7 @@ pod 'Alamofire', '~> 4.7'
 pod 'SwiftyJSON', '~> 4.1.0'
 pod 'Sheeeeeeeeet', '~> 0.9.2'
 pod 'CryptoSwift', '~> 0.9.0'
-pod 'LifetimeTracker', '~> 1.4.0'
+#pod 'LifetimeTracker', '~> 1.4.0'
 pod 'CardParts', '~> 2.3.3'
 
 target 'PickProject'

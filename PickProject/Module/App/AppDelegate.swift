@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-import LifetimeTracker
+//import LifetimeTracker
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //            DotzuX.logMaxCount = 1000 //default value is `500`
         DotzuX.enable()
         
-        LifetimeTracker.setup(onUpdate: LifetimeTrackerDashboardIntegration(visibility: .alwaysVisible, style: .circular).refreshUI)
+//        LifetimeTracker.setup(onUpdate: LifetimeTrackerDashboardIntegration(visibility: .alwaysVisible, style: .circular).refreshUI)
         
         #endif
         
