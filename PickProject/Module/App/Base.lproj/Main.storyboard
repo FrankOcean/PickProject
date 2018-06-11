@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,7 +13,7 @@
         <!--我的-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MineViewController" customModule="TMProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MineViewController" customModule="PickProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,22 +60,13 @@
                                     <action selector="registerBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yut-2B-pfX"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pick" translatesAutoresizingMaskIntoConstraints="NO" id="dwE-uk-KYO">
-                                <rect key="frame" x="106.5" y="183" width="162" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="Igp-qc-hUj"/>
-                                    <constraint firstAttribute="width" secondItem="dwE-uk-KYO" secondAttribute="height" multiplier="366:181" id="iLW-qc-tF4"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.015686274509803921" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WgT-zW-P3R" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9dZ-au-Uii"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vAI-1X-7pq" secondAttribute="bottom" constant="66" id="MhP-2p-o9C"/>
-                            <constraint firstItem="dwE-uk-KYO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NlD-fc-X3z"/>
                             <constraint firstItem="vAI-1X-7pq" firstAttribute="top" secondItem="WgT-zW-P3R" secondAttribute="bottom" constant="20" id="S4g-Jz-1Vj"/>
                             <constraint firstItem="vAI-1X-7pq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fnt-Wh-TcH"/>
-                            <constraint firstItem="dwE-uk-KYO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="119" id="fvT-8M-oQA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -85,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="390" y="1537"/>
+            <point key="canvasLocation" x="415" y="1391"/>
         </scene>
         <!--投放-->
         <scene sceneID="FWq-oU-W5k">
@@ -124,7 +114,7 @@
         <!--Message View Controller-->
         <scene sceneID="9QK-1m-OHL">
             <objects>
-                <viewController id="ewP-Sv-cp8" customClass="MessageViewController" customModule="TMProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ewP-Sv-cp8" customClass="MessageViewController" customModule="PickProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2s8-i0-oJm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +130,7 @@
         <!--CombinationV Controller-->
         <scene sceneID="aWH-pW-qrz">
             <objects>
-                <viewController id="FdI-TD-mtJ" customClass="CombinationVController" customModule="TMProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FdI-TD-mtJ" customClass="CombinationVController" customModule="PickProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hjx-8l-p5a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,7 +146,7 @@
         <!--Main Tab BarVC-->
         <scene sceneID="Mxb-B4-8d0">
             <objects>
-                <tabBarController id="Srh-BI-NZx" customClass="MainTabBarVC" customModule="TMProject" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="Srh-BI-NZx" customClass="MainTabBarVC" customModule="PickProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iX3-Nu-n9o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -190,7 +180,4 @@
             <point key="canvasLocation" x="-242" y="654"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Pick" width="183" height="90"/>
-    </resources>
 </document>
