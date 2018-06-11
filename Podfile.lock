@@ -14,6 +14,7 @@ PODS:
   - Hue (3.0.1)
   - Imaginary (3.0.3):
     - Cache (~> 4.0)
+  - LifetimeTracker (1.4.0)
   - Malibu (6.3.0):
     - When (~> 3.0)
   - ObjectMapper (3.2.0)
@@ -42,6 +43,7 @@ DEPENDENCIES:
   - CryptoSwift (~> 0.9.0)
   - Hue (~> 3.0)
   - Imaginary (~> 3.0)
+  - LifetimeTracker (~> 1.4.0)
   - Malibu (~> 6.0)
   - R.swift (~> 4.0)
   - Sheeeeeeeeet (~> 0.9.2)
@@ -58,6 +60,7 @@ SPEC REPOS:
     - Differentiator
     - Hue
     - Imaginary
+    - LifetimeTracker
     - Malibu
     - ObjectMapper
     - R.swift
@@ -80,6 +83,7 @@ SPEC CHECKSUMS:
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
   Imaginary: 9b45836a5af881f452a86e0a1215772ae4712d00
+  LifetimeTracker: 51b52d559ffd4570584996b4b94b8779e525ee62
   Malibu: 70b3a092446673707ae0373adaf801b6d8d0a10d
   ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
@@ -93,6 +97,6 @@ SPEC CHECKSUMS:
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   When: 4e5fda6952dd6e2714bafc329cb288b4637b6cc9
 
-PODFILE CHECKSUM: 7871d212b7f91e7766f181bf0addcfb8704b12b5
+PODFILE CHECKSUM: f7297926657097fabf81522e302fb73f6ffd8aa3
 
 COCOAPODS: 1.5.0
