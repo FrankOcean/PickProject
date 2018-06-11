@@ -19,17 +19,12 @@ class MineViewController: BaseViewController {
 
     @IBAction func registerBtnClick(_ sender: Any) {
         let registVC = RegisterViewController()
-        self.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(registVC, animated: true)
-        self.hidesBottomBarWhenPushed = false
     }
     
     @IBAction func loginBtnClick(_ sender: Any) {
         let loginVC = LoginViewController()
-        self.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(loginVC, animated: true)
-        self.hidesBottomBarWhenPushed = false
-        
     }
     
     func testHTTP() {

@@ -1,5 +1,5 @@
 //
-//  CombinationVController.swift
+//  MessageViewController.swift
 //  TMProject
 //
 //  Created by Frank on 2018/5/25.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class CombinationVController: BaseViewController {
+class OrderViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.cyan
         // Do any additional setup after loading the view.
     }
 

@@ -43,8 +43,8 @@
 		01D323CA20B7FF4300A59725 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323C720B7FF4300A59725 /* UserDefaultsExtension.swift */; };
 		01D323CE20B8054B00A59725 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323CD20B8054B00A59725 /* MainTabBarVC.swift */; };
 		01D323D020B8073300A59725 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323CF20B8073300A59725 /* MineViewController.swift */; };
-		01D323D220B8075200A59725 /* CombinationVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323D120B8075200A59725 /* CombinationVController.swift */; };
-		01D323D420B8075E00A59725 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323D320B8075E00A59725 /* MessageViewController.swift */; };
+		01D323D220B8075200A59725 /* InvestVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323D120B8075200A59725 /* InvestVController.swift */; };
+		01D323D420B8075E00A59725 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323D320B8075E00A59725 /* OrderViewController.swift */; };
 		01D323D620B8086300A59725 /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323D520B8086300A59725 /* BaseNavViewController.swift */; };
 		01D323D820B80F9900A59725 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D323D720B80F9900A59725 /* WebKit.framework */; };
 		01D323FA20B812C000A59725 /* BaseWebVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D323F920B812C000A59725 /* BaseWebVController.swift */; };
@@ -345,6 +345,10 @@
 		3125F11B20B9CE83006DF615 /* ASIHTTPRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3125F0EE20B9CE82006DF615 /* ASIHTTPRequestClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3125F12620B9F2AE006DF615 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125F12520B9F2AE006DF615 /* ThemeViewController.swift */; };
 		3125F12820B9F372006DF615 /* ThemedCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125F12720B9F372006DF615 /* ThemedCardController.swift */; };
+		31CA0B6220CEC6DC000DF4EE /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA0B6120CEC6DC000DF4EE /* BaseModel.swift */; };
+		31CA0B6520CEC7D8000DF4EE /* AFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA0B6420CEC7D8000DF4EE /* AFManager.swift */; };
+		31CA0B6C20CEDC3A000DF4EE /* AdsModelSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA0B6A20CEDC3A000DF4EE /* AdsModelSelectController.swift */; };
+		31CA0B6D20CEDC3A000DF4EE /* AdsModelSelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CA0B6B20CEDC3A000DF4EE /* AdsModelSelectController.xib */; };
 		411877D790266B0D36CB5BC0 /* Pods_PickProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2671D0B66C8EBE64E94B1126 /* Pods_PickProjectTests.framework */; };
 		E10BF675025935193A609248 /* Pods_PickProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17BDDC5D1487E4F52734B59 /* Pods_PickProject.framework */; };
 /* End PBXBuildFile section */
@@ -409,8 +413,8 @@
 		01D323C720B7FF4300A59725 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 		01D323CD20B8054B00A59725 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		01D323CF20B8073300A59725 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
-		01D323D120B8075200A59725 /* CombinationVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationVController.swift; sourceTree = "<group>"; };
-		01D323D320B8075E00A59725 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		01D323D120B8075200A59725 /* InvestVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestVController.swift; sourceTree = "<group>"; };
+		01D323D320B8075E00A59725 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		01D323D520B8086300A59725 /* BaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 		01D323D720B80F9900A59725 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		01D323F920B812C000A59725 /* BaseWebVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebVController.swift; sourceTree = "<group>"; };
@@ -763,6 +767,10 @@
 		3125F12220B9D081006DF615 /* PickProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		3125F12520B9F2AE006DF615 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		3125F12720B9F372006DF615 /* ThemedCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemedCardController.swift; sourceTree = "<group>"; };
+		31CA0B6120CEC6DC000DF4EE /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		31CA0B6420CEC7D8000DF4EE /* AFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFManager.swift; sourceTree = "<group>"; };
+		31CA0B6A20CEDC3A000DF4EE /* AdsModelSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsModelSelectController.swift; sourceTree = "<group>"; };
+		31CA0B6B20CEDC3A000DF4EE /* AdsModelSelectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsModelSelectController.xib; sourceTree = "<group>"; };
 		67B5A0E86E69AA660FCE668B /* Pods-PickProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickProject/Pods-PickProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A17BDDC5D1487E4F52734B59 /* Pods_PickProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C70652468A27E0AC0E1D00 /* Pods-PickProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickProjectTests/Pods-PickProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -874,9 +882,10 @@
 		01984BCC20B7EAC2002214F8 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				31CA0B6320CEC7C8000DF4EE /* Network */,
 				01D323CC20B8000A00A59725 /* Base */,
-				01984BD420B7ECA5002214F8 /* Message */,
-				01984BD320B7EC96002214F8 /* Combination */,
+				01984BD420B7ECA5002214F8 /* Order */,
+				01984BD320B7EC96002214F8 /* Invest */,
 				01984BD220B7EC5B002214F8 /* Mine */,
 				01984BCD20B7EAFE002214F8 /* App */,
 				01984BD120B7EC12002214F8 /* Tab */,
@@ -981,25 +990,28 @@
 			path = Mine;
 			sourceTree = "<group>";
 		};
-		01984BD320B7EC96002214F8 /* Combination */ = {
+		01984BD320B7EC96002214F8 /* Invest */ = {
 			isa = PBXGroup;
 			children = (
-				01D323D120B8075200A59725 /* CombinationVController.swift */,
+				01D323D120B8075200A59725 /* InvestVController.swift */,
+				31CA0B6A20CEDC3A000DF4EE /* AdsModelSelectController.swift */,
+				31CA0B6B20CEDC3A000DF4EE /* AdsModelSelectController.xib */,
 			);
-			path = Combination;
+			path = Invest;
 			sourceTree = "<group>";
 		};
-		01984BD420B7ECA5002214F8 /* Message */ = {
+		01984BD420B7ECA5002214F8 /* Order */ = {
 			isa = PBXGroup;
 			children = (
-				01D323D320B8075E00A59725 /* MessageViewController.swift */,
+				01D323D320B8075E00A59725 /* OrderViewController.swift */,
 			);
-			path = Message;
+			path = Order;
 			sourceTree = "<group>";
 		};
 		01D323CC20B8000A00A59725 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				31CA0B6120CEC6DC000DF4EE /* BaseModel.swift */,
 				3117838520BDC2C0009F4AFB /* ETNavBarTransparent.swift */,
 				01D323F920B812C000A59725 /* BaseWebVController.swift */,
 				01984B9620B7E2EE002214F8 /* BaseViewController.swift */,
@@ -1510,6 +1522,14 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		31CA0B6320CEC7C8000DF4EE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				31CA0B6420CEC7D8000DF4EE /* AFManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		B83A98697C845B2976922400 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1812,6 +1832,7 @@
 				3125EFD320B9CE57006DF615 /* icon_file_type_wav@3x.png in Resources */,
 				3125EFE620B9CE57006DF615 /* icon_file_type_json@3x.png in Resources */,
 				3125EFCA20B9CE57006DF615 /* Logs.storyboard in Resources */,
+				31CA0B6D20CEDC3A000DF4EE /* AdsModelSelectController.xib in Resources */,
 				01984B9A20B7E2EE002214F8 /* Main.storyboard in Resources */,
 				3125F04520B9CE57006DF615 /* icon_file_type_psd@3x.png in Resources */,
 				3125F03A20B9CE57006DF615 /* icon_file_type_ppt@3x.png in Resources */,
@@ -1937,6 +1958,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CA0B6C20CEDC3A000DF4EE /* AdsModelSelectController.swift in Sources */,
 				01984B9720B7E2EE002214F8 /* BaseViewController.swift in Sources */,
 				01D323BB20B7FD6500A59725 /* UISwitchExtensions.swift in Sources */,
 				3125F12820B9F372006DF615 /* ThemedCardController.swift in Sources */,
@@ -1958,6 +1980,7 @@
 				01D323C520B7FF2000A59725 /* UIWindowExtensions.swift in Sources */,
 				3125F08520B9CE57006DF615 /* LogModel.swift in Sources */,
 				01D323FC20B812DF00A59725 /* BaseTableVController.swift in Sources */,
+				31CA0B6520CEC7D8000DF4EE /* AFManager.swift in Sources */,
 				3117838A20BDC4B6009F4AFB /* RegisterViewController.swift in Sources */,
 				3125F07920B9CE57006DF615 /* HttpModel.m in Sources */,
 				3125F07820B9CE57006DF615 /* JsonViewController.swift in Sources */,
@@ -1979,6 +2002,7 @@
 				3125F10220B9CE82006DF615 /* ASIInputStream.m in Sources */,
 				3125F11A20B9CE83006DF615 /* FormDataPart.swift in Sources */,
 				3125EFC820B9CE57006DF615 /* CrashCell.swift in Sources */,
+				31CA0B6220CEC6DC000DF4EE /* BaseModel.swift in Sources */,
 				3125EDA520B9B037006DF615 /* UIImage+Extensions.swift in Sources */,
 				3125F10520B9CE82006DF615 /* ASIWebPageRequest.m in Sources */,
 				01D323CA20B7FF4300A59725 /* UserDefaultsExtension.swift in Sources */,
@@ -1994,7 +2018,7 @@
 				3125F10720B9CE82006DF615 /* StatusCode.swift in Sources */,
 				3125F08D20B9CE57006DF615 /* Swizzling.m in Sources */,
 				3125EFC720B9CE57006DF615 /* AboutViewController.swift in Sources */,
-				01D323D420B8075E00A59725 /* MessageViewController.swift in Sources */,
+				01D323D420B8075E00A59725 /* OrderViewController.swift in Sources */,
 				3125EDAE20B9B037006DF615 /* UIImageView+Extensions.swift in Sources */,
 				3125F10020B9CE82006DF615 /* ASIDataDecompressor.m in Sources */,
 				3125F11720B9CE83006DF615 /* Deprecated.swift in Sources */,
@@ -2071,7 +2095,7 @@
 				3125F09420B9CE57006DF615 /* DotzuXTabBarController.swift in Sources */,
 				3125F0F420B9CE82006DF615 /* ASICloudFilesCDNRequest.m in Sources */,
 				3125F07F20B9CE57006DF615 /* NetworkDetailCell.swift in Sources */,
-				01D323D220B8075200A59725 /* CombinationVController.swift in Sources */,
+				01D323D220B8075200A59725 /* InvestVController.swift in Sources */,
 				3125F0F820B9CE82006DF615 /* ASIS3Bucket.m in Sources */,
 				01D3238720B7F70D00A59725 /* BlockButton.swift in Sources */,
 				3125ED9F20B9B037006DF615 /* UISegmentedControl+Extensions.swift in Sources */,
@@ -2272,7 +2296,10 @@
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = "$(SRCROOT)/PickProject/Resources/PickInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FetureLab.PickProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/PickProject/Resources/PickProject-Bridging-Header.h";
@@ -2291,7 +2318,10 @@
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = "$(SRCROOT)/PickProject/Resources/PickInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FetureLab.PickProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/PickProject/Resources/PickProject-Bridging-Header.h";
@@ -2308,7 +2338,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FetureLab.PickProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -2325,7 +2359,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FetureLab.PickProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -2340,7 +2378,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FetureLab.PickProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -2355,7 +2397,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FetureLab.PickProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
