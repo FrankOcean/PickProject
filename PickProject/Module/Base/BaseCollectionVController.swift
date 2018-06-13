@@ -24,7 +24,7 @@ class BaseCollectionVController: BaseViewController, UICollectionViewDelegate, U
         colltionView?.dataSource = self;
         
         colltionView?.backgroundColor = UIColor.white
-        layout.itemSize = CGSize(width: UIScreen.main.bounds.width-50, height: 400)
+        layout.itemSize = UIScreen.main.bounds.size
         self.view.addSubview(colltionView!)
     }
 
@@ -38,12 +38,11 @@ class BaseCollectionVController: BaseViewController, UICollectionViewDelegate, U
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! Home_Cell
-        cell.titleLabel!.text = "ssdfaskjdflksajklfdjs"
         return cell
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets{
-        return UIEdgeInsetsMake(5, 10, 5, 10)
+        return UIEdgeInsetsMake(90, 10, 0, 0)
     }
     
     class Home_Cell: UICollectionViewCell {
@@ -58,7 +57,8 @@ class BaseCollectionVController: BaseViewController, UICollectionViewDelegate, U
             
             super.init(frame: frame)
             //初始化各种控件
-            imgView = UIImageView(frame: CGRect(x: 0, y: 40, width: 200, height: 400))
+            imgView = UIImageView(frame: CGRect(x: 0, y: 60, width: 200, height: 400))
+            imgView?.backgroundColor = UIColor.lightGray
             self.addSubview(imgView!)
             titleLabel = UILabel(frame: CGRect(x: 5, y: 20, width: (width-40)/2, height: 50))
             titleLabel?.numberOfLines = 0

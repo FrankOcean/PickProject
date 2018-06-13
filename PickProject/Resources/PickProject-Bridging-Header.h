@@ -8,4 +8,4 @@
 
 #import "DotzuX.h"
 #import "ASIHTTPRequestClient.h"
-
+#import "avformat.h"
