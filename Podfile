@@ -5,6 +5,7 @@ platform :ios, '10.0'
 use_frameworks!
 inhibit_all_warnings!
 
+target 'PickProject' do
 pod 'Hue', '~> 3.0'
 pod 'Imaginary', '~> 3.0'
 pod 'Malibu', '~> 6.0'
@@ -18,8 +19,8 @@ pod 'CryptoSwift', '~> 0.9.0'
 pod 'LifetimeTracker', '~> 1.4.0'
 pod 'CardParts', '~> 2.3.3'
 pod 'SDWebImage', '~> 4.4.1'
-
-target 'PickProject'
+pod 'PLShortVideoKit', '~> 1.10.0'
+end
 
 target 'PickProjectTests' do
   inherit! :search_paths

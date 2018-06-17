@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A80F90BF3EEE64092B5CB871DFC204F6"
+               BlueprintIdentifier = "377D8E599EE7298E4CEB29239D75DF80"
                BuildableName = "Rswift.framework"
                BlueprintName = "R.swift.Library"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A80F90BF3EEE64092B5CB871DFC204F6"
+            BlueprintIdentifier = "377D8E599EE7298E4CEB29239D75DF80"
             BuildableName = "Rswift.framework"
             BlueprintName = "R.swift.Library"
             ReferencedContainer = "container:Pods.xcodeproj">
