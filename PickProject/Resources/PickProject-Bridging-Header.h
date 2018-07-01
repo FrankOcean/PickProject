@@ -9,3 +9,10 @@
 #import "DotzuX.h"
 #import "ASIHTTPRequestClient.h"
 #import "avformat.h"
+#import <HappyDNS/HappyDNS.h>
+#import <PLShortVideoKit/PLShortVideoKit.h>
+#import <Qiniu/QiniuSDK.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <TTTAttributedLabel/TTTAttributedLabel.h>
+#import "InvestRecordVController.h"
+#import "GPUImage.h"
