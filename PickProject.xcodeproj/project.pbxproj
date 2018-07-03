@@ -58,6 +58,7 @@
 		3117838620BDC2C0009F4AFB /* ETNavBarTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117838520BDC2C0009F4AFB /* ETNavBarTransparent.swift */; };
 		3117838A20BDC4B6009F4AFB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117838820BDC4B6009F4AFB /* RegisterViewController.swift */; };
 		3117838B20BDC4B6009F4AFB /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3117838920BDC4B6009F4AFB /* RegisterViewController.xib */; };
+		311883ED20E94DEE009B30BD /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311883EC20E94DEE009B30BD /* ExampleViewController.swift */; };
 		3125ED9F20B9B037006DF615 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125ED8E20B9B033006DF615 /* UISegmentedControl+Extensions.swift */; };
 		3125EDA020B9B037006DF615 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125ED8F20B9B033006DF615 /* Array+Extensions.swift */; };
 		3125EDA120B9B037006DF615 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125ED9020B9B034006DF615 /* UITextView+Extensions.swift */; };
@@ -627,6 +628,7 @@
 		3117838520BDC2C0009F4AFB /* ETNavBarTransparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETNavBarTransparent.swift; sourceTree = "<group>"; };
 		3117838820BDC4B6009F4AFB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3117838920BDC4B6009F4AFB /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		311883EC20E94DEE009B30BD /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		3125ED8E20B9B033006DF615 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
 		3125ED8F20B9B033006DF615 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		3125ED9020B9B034006DF615 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
@@ -2113,6 +2115,7 @@
 			isa = PBXGroup;
 			children = (
 				317B1F8A20D030EC004D5C9F /* InvestPictureEditController.swift */,
+				311883EC20E94DEE009B30BD /* ExampleViewController.swift */,
 			);
 			path = PictureEdit;
 			sourceTree = "<group>";
@@ -2722,6 +2725,7 @@
 				"${BUILT_PRODUCTS_DIR}/LifetimeTracker/LifetimeTracker.framework",
 				"${BUILT_PRODUCTS_DIR}/Malibu/Malibu.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -2729,9 +2733,11 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Sheeeeeeeeet/Sheeeeeeeeet.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/When/When.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -2747,6 +2753,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LifetimeTracker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Malibu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -2754,9 +2761,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sheeeeeeeeet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/When.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2925,6 +2934,7 @@
 				01D3239120B7F7D100A59725 /* BundleExtensions.swift in Sources */,
 				01D3239F20B7FA6300A59725 /* FileManagerExtension.swift in Sources */,
 				3125EDAC20B9B037006DF615 /* Optional+Extensions.swift in Sources */,
+				311883ED20E94DEE009B30BD /* ExampleViewController.swift in Sources */,
 				3125F0F520B9CE82006DF615 /* ASICloudFilesObjectRequest.m in Sources */,
 				3125F0F920B9CE82006DF615 /* ASIS3ServiceRequest.m in Sources */,
 				3125EFBC20B9CE57006DF615 /* DotzuX+Extensions.swift in Sources */,

@@ -66,7 +66,7 @@ class AdsModelSelectController: CardPartsViewController {
         switch tag {
         case 1: self.navigationController?.pushViewController(InvestRecordVController(), animated: true)
         case 2: self.navigationController?.pushViewController(InvestVideoEditController(), animated: true)
-        case 3: print("图片+视频")
+        case 3: self.navigationController?.pushViewController(ExampleViewController(), animated: true)
 
         default:
             print("Error")

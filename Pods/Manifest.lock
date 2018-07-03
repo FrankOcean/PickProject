@@ -16,9 +16,9 @@ PODS:
   - Imaginary (3.0.3):
     - Cache (~> 4.0)
   - LifetimeTracker (1.4.0)
-  - Malibu (6.3.0):
+  - Malibu (6.4.0):
     - When (~> 3.0)
-  - ObjectMapper (3.2.0)
+  - ObjectMapper (3.3.0)
   - PLShortVideoKit (1.10.0):
     - PLShortVideoKit/ex-libMuseProcessor (= 1.10.0)
     - PLShortVideoKit/libMuseProcessor (= 1.10.0)
@@ -27,6 +27,7 @@ PODS:
     - Qiniu (~> 7.1)
   - PLShortVideoKit/libMuseProcessor (1.10.0):
     - Qiniu (~> 7.1)
+  - PryntTrimmerView (2.0.1)
   - Qiniu (7.2.4):
     - HappyDNS (~> 0.3)
   - R.swift (4.0.0):
@@ -42,13 +43,17 @@ PODS:
   - SDWebImage (4.4.1):
     - SDWebImage/Core (= 4.4.1)
   - SDWebImage/Core (4.4.1)
-  - Sheeeeeeeeet (0.9.3)
+  - Sheeeeeeeeet (0.9.4)
+  - SteviaLayout (4.2.0)
   - SwiftLint (0.25.1)
   - SwiftyJSON (4.1.0)
   - TTTAttributedLabel (2.0.0)
   - When (3.0.2):
     - When/Core (= 3.0.2)
   - When/Core (3.0.2)
+  - YPImagePicker (3.2.0):
+    - PryntTrimmerView (~> 2.0)
+    - SteviaLayout (~> 4.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
@@ -65,9 +70,10 @@ DEPENDENCIES:
   - Sheeeeeeeeet (~> 0.9.2)
   - SwiftLint (~> 0.25.1)
   - SwiftyJSON (~> 4.1.0)
+  - YPImagePicker
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireObjectMapper
     - Cache
@@ -81,6 +87,7 @@ SPEC REPOS:
     - Malibu
     - ObjectMapper
     - PLShortVideoKit
+    - PryntTrimmerView
     - Qiniu
     - R.swift
     - R.swift.Library
@@ -89,10 +96,12 @@ SPEC REPOS:
     - RxSwift
     - SDWebImage
     - Sheeeeeeeeet
+    - SteviaLayout
     - SwiftLint
     - SwiftyJSON
     - TTTAttributedLabel
     - When
+    - YPImagePicker
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
@@ -105,9 +114,10 @@ SPEC CHECKSUMS:
   Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
   Imaginary: 9b45836a5af881f452a86e0a1215772ae4712d00
   LifetimeTracker: 51b52d559ffd4570584996b4b94b8779e525ee62
-  Malibu: 70b3a092446673707ae0373adaf801b6d8d0a10d
-  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+  Malibu: 6eb03f4707c3bd2131f38b1fa5243084c090abb3
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   PLShortVideoKit: 86099728bc288502de62b37865d479a85a849e15
+  PryntTrimmerView: 4260ae497a2f3e1bbfc0b71247eb74ab92bf0490
   Qiniu: 65384bca1cdb0480a68d9b9b8f54db53418c0355
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
@@ -115,12 +125,14 @@ SPEC CHECKSUMS:
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
-  Sheeeeeeeeet: 3aa29e3c9aa1f8db8148cb3f639ba99ba9ca1add
+  Sheeeeeeeeet: 146870f19426aca0b137cb85a6209ff731e1db43
+  SteviaLayout: 0d2112caea45707695e8c718262c8ea3dd37ef17
   SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   When: 4e5fda6952dd6e2714bafc329cb288b4637b6cc9
+  YPImagePicker: 2d9c7f1e29642fa43f875f66a9b6cc4c0793ec8a
 
-PODFILE CHECKSUM: 7b4b11a4325f3ef9741a3f1950704ff3c075511e
+PODFILE CHECKSUM: 340fcceb4530f0e73dcf84f539e9e6faf17a5553
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

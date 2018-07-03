@@ -70,16 +70,15 @@ open class ActionSheetItem: NSObject {
     open func applyAppearance(to cell: UITableViewCell) {
         cell.imageView?.image = image
         cell.textLabel?.text = title
+        cell.selectionStyle = .default
         cell.separatorInset = appearance.separatorInsets
         cell.tintColor = appearance.tintColor
+        cell.textLabel?.textAlignment = .left
         cell.textLabel?.textColor = appearance.textColor
         cell.textLabel?.font = appearance.font
         cell.detailTextLabel?.text = subtitle
         cell.detailTextLabel?.font = appearance.subtitleFont
         cell.detailTextLabel?.textColor = appearance.subtitleTextColor
-        if tapBehavior == .none {
-            cell.selectionStyle = .none
-        }
     }
     
     open func cell(for tableView: UITableView) -> UITableViewCell {

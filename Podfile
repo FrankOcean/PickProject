@@ -20,6 +20,7 @@ pod 'LifetimeTracker', '~> 1.4.0'
 pod 'CardParts', '~> 2.3.3'
 pod 'SDWebImage', '~> 4.4.1'
 pod 'PLShortVideoKit', '~> 1.10.0'
+pod 'YPImagePicker', '~> 3.2.0'
 end
 
 target 'PickProjectTests' do
