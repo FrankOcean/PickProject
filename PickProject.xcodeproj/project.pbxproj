@@ -352,6 +352,8 @@
 		3158C69D20E7EA37000E0B35 /* PickAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158C69C20E7EA37000E0B35 /* PickAccount.swift */; };
 		3158C6A120E93D20000E0B35 /* MyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158C69F20E93D20000E0B35 /* MyOrderViewController.swift */; };
 		3158C6A220E93D20000E0B35 /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3158C6A020E93D20000E0B35 /* MyOrderViewController.xib */; };
+		316E435220F4EDFA00EA9BFD /* ChangeUserInfoVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E435020F4EDFA00EA9BFD /* ChangeUserInfoVController.swift */; };
+		316E435320F4EDFA00EA9BFD /* ChangeUserInfoVController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316E435120F4EDFA00EA9BFD /* ChangeUserInfoVController.xib */; };
 		317B1F8B20D030EC004D5C9F /* InvestPictureEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B1F8A20D030EC004D5C9F /* InvestPictureEditController.swift */; };
 		317B1F8D20D03109004D5C9F /* InvestVideoEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B1F8C20D03109004D5C9F /* InvestVideoEditController.swift */; };
 		317B1F8F20D0312F004D5C9F /* InvestVideoAndPictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B1F8E20D0312F004D5C9F /* InvestVideoAndPictureController.swift */; };
@@ -374,6 +376,7 @@
 		317B202320D04334004D5C9F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 317B202220D04333004D5C9F /* libz.tbd */; };
 		317B202520D0434F004D5C9F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 317B202420D0434F004D5C9F /* libbz2.tbd */; };
 		317B202720D04363004D5C9F /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 317B202620D04362004D5C9F /* libiconv.tbd */; };
+		319FB2A220EE0D0F00A8A167 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319FB2A120EE0D0F00A8A167 /* MapViewController.swift */; };
 		31CA0B6220CEC6DC000DF4EE /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA0B6120CEC6DC000DF4EE /* BaseModel.swift */; };
 		31CA0B6520CEC7D8000DF4EE /* AFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA0B6420CEC7D8000DF4EE /* AFManager.swift */; };
 		31CA0B6C20CEDC3A000DF4EE /* AdsModelSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA0B6A20CEDC3A000DF4EE /* AdsModelSelectController.swift */; };
@@ -972,6 +975,8 @@
 		3158C69C20E7EA37000E0B35 /* PickAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAccount.swift; sourceTree = "<group>"; };
 		3158C69F20E93D20000E0B35 /* MyOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderViewController.swift; sourceTree = "<group>"; };
 		3158C6A020E93D20000E0B35 /* MyOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderViewController.xib; sourceTree = "<group>"; };
+		316E435020F4EDFA00EA9BFD /* ChangeUserInfoVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserInfoVController.swift; sourceTree = "<group>"; };
+		316E435120F4EDFA00EA9BFD /* ChangeUserInfoVController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeUserInfoVController.xib; sourceTree = "<group>"; };
 		317B1F8A20D030EC004D5C9F /* InvestPictureEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestPictureEditController.swift; sourceTree = "<group>"; };
 		317B1F8C20D03109004D5C9F /* InvestVideoEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestVideoEditController.swift; sourceTree = "<group>"; };
 		317B1F8E20D0312F004D5C9F /* InvestVideoAndPictureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestVideoAndPictureController.swift; sourceTree = "<group>"; };
@@ -1097,6 +1102,7 @@
 		317B202220D04333004D5C9F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		317B202420D0434F004D5C9F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		317B202620D04362004D5C9F /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		319FB2A120EE0D0F00A8A167 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		31CA0B6120CEC6DC000DF4EE /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		31CA0B6420CEC7D8000DF4EE /* AFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFManager.swift; sourceTree = "<group>"; };
 		31CA0B6A20CEDC3A000DF4EE /* AdsModelSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsModelSelectController.swift; sourceTree = "<group>"; };
@@ -1235,6 +1241,7 @@
 			children = (
 				31CA0B6320CEC7C8000DF4EE /* Network */,
 				01D323CC20B8000A00A59725 /* Base */,
+				319FB2A020EE0CDE00A8A167 /* Home */,
 				01984BD420B7ECA5002214F8 /* Order */,
 				01984BD320B7EC96002214F8 /* Invest */,
 				01984BD220B7EC5B002214F8 /* Mine */,
@@ -1334,6 +1341,7 @@
 		01984BD220B7EC5B002214F8 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				316E434F20F4EDB100EA9BFD /* ChangeUserInfo */,
 				3158C69520E7E73C000E0B35 /* MineHome */,
 				3117838720BDC4A0009F4AFB /* Register */,
 				3117838420BDAC41009F4AFB /* Login */,
@@ -2102,6 +2110,15 @@
 			path = MyOrder;
 			sourceTree = "<group>";
 		};
+		316E434F20F4EDB100EA9BFD /* ChangeUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				316E435020F4EDFA00EA9BFD /* ChangeUserInfoVController.swift */,
+				316E435120F4EDFA00EA9BFD /* ChangeUserInfoVController.xib */,
+			);
+			path = ChangeUserInfo;
+			sourceTree = "<group>";
+		};
 		317B1F8620D02D40004D5C9F /* ModelSelect */ = {
 			isa = PBXGroup;
 			children = (
@@ -2336,6 +2353,14 @@
 				317B200C20D042B8004D5C9F /* libswscale.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		319FB2A020EE0CDE00A8A167 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				319FB2A120EE0D0F00A8A167 /* MapViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		31CA0B6320CEC7C8000DF4EE /* Network */ = {
@@ -2646,6 +2671,7 @@
 				3125F03C20B9CE57006DF615 /* icon_file_type_psd.png in Resources */,
 				3125F01620B9CE57006DF615 /* icon_file_type_mp4@3x.png in Resources */,
 				3125EFE220B9CE57006DF615 /* icon_file_type_xls.png in Resources */,
+				316E435320F4EDFA00EA9BFD /* ChangeUserInfoVController.xib in Resources */,
 				3125F03F20B9CE57006DF615 /* icon_file_type_html@3x.png in Resources */,
 				3125F07220B9CE57006DF615 /* icon_file_type_md@2x.png in Resources */,
 				3125EFFB20B9CE57006DF615 /* icon_file_type_zip@2x.png in Resources */,
@@ -2829,6 +2855,7 @@
 				3125F10920B9CE82006DF615 /* HTTPSecurity.swift in Sources */,
 				317B1F9320D035F7004D5C9F /* InvestRecordController.swift in Sources */,
 				3125F08C20B9CE57006DF615 /* MLBFileInfo.m in Sources */,
+				319FB2A220EE0D0F00A8A167 /* MapViewController.swift in Sources */,
 				3125F10F20B9CE82006DF615 /* NSFileManager+Helpers.swift in Sources */,
 				01D323FE20B812FE00A59725 /* BaseCollectionVController.swift in Sources */,
 				3125EDA120B9B037006DF615 /* UITextView+Extensions.swift in Sources */,
@@ -2911,6 +2938,7 @@
 				01D3238920B7F70D00A59725 /* BlockTap.swift in Sources */,
 				3125EDAF20B9B037006DF615 /* UIColor+Extensions.swift in Sources */,
 				3125F11320B9CE82006DF615 /* JSON.swift in Sources */,
+				316E435220F4EDFA00EA9BFD /* ChangeUserInfoVController.swift in Sources */,
 				01D323C920B7FF4300A59725 /* URLExtensions.swift in Sources */,
 				0113A8BB20B7F15C00A32F9D /* Generated.swift in Sources */,
 				3125F0FF20B9CE82006DF615 /* ASIFormDataRequest.m in Sources */,

@@ -48,7 +48,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLC-Tu-8QY">
-                    <rect key="frame" x="67" y="454" width="240" height="44"/>
+                    <rect key="frame" x="67" y="373" width="240" height="44"/>
                     <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.08235294118" alpha="1" colorSpace="deviceRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="2Za-ms-E6V"/>
@@ -77,9 +77,6 @@
                     <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
                     <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
-                    <connections>
-                        <outletCollection property="gestureRecognizers" destination="JvM-ip-0VM" appends="YES" id="QZR-35-zku"/>
-                    </connections>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NX-FB-pyh">
                     <rect key="frame" x="50" y="201.5" width="275" height="1"/>
@@ -88,9 +85,31 @@
                         <constraint firstAttribute="height" constant="1" id="EVp-3B-dil"/>
                     </constraints>
                 </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijJ-a1-my3">
+                    <rect key="frame" x="67" y="450" width="240" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.08235294118" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="4KV-Xc-FhV"/>
+                        <constraint firstAttribute="height" constant="44" id="6CZ-ru-WSn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="18"/>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="circleCorner" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="RegisterBtnClick:" destination="-1" eventType="touchUpInside" id="Gay-Wr-aVr"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="ijJ-a1-my3" firstAttribute="top" secondItem="JLC-Tu-8QY" secondAttribute="bottom" constant="33" id="AAO-QT-Pqd"/>
                 <constraint firstItem="ScZ-W3-HuY" firstAttribute="top" secondItem="xdK-fb-1sZ" secondAttribute="bottom" constant="7.5" id="CmM-I5-Bor"/>
                 <constraint firstItem="ScZ-W3-HuY" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="DGg-CI-LDX"/>
                 <constraint firstItem="xdK-fb-1sZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="75.5" id="EYR-HU-MKx"/>
@@ -100,13 +119,14 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xdK-fb-1sZ" secondAttribute="trailing" constant="50" id="Kqf-TO-HuD"/>
                 <constraint firstItem="9NX-FB-pyh" firstAttribute="top" secondItem="ZSu-A9-RN4" secondAttribute="bottom" constant="7.5" id="Pmi-4n-1c7"/>
                 <constraint firstItem="ScZ-W3-HuY" firstAttribute="width" secondItem="xdK-fb-1sZ" secondAttribute="width" id="RJ3-v7-Fiw"/>
+                <constraint firstItem="ijJ-a1-my3" firstAttribute="centerX" secondItem="JLC-Tu-8QY" secondAttribute="centerX" id="Sgu-TF-aQQ"/>
                 <constraint firstItem="xdK-fb-1sZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="Vuy-RC-lza"/>
                 <constraint firstItem="ZSu-A9-RN4" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="bGv-xw-xWM"/>
                 <constraint firstItem="9NX-FB-pyh" firstAttribute="width" secondItem="xdK-fb-1sZ" secondAttribute="width" id="c77-OU-Ml6"/>
                 <constraint firstItem="JLC-Tu-8QY" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="l3Y-hV-Z1R"/>
                 <constraint firstItem="ZSu-A9-RN4" firstAttribute="top" secondItem="ScZ-W3-HuY" secondAttribute="bottom" constant="30" id="mVf-7V-a91"/>
                 <constraint firstItem="ZSu-A9-RN4" firstAttribute="width" secondItem="xdK-fb-1sZ" secondAttribute="width" id="qYp-Ks-L4G"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JLC-Tu-8QY" secondAttribute="bottom" constant="169" id="rla-r2-0aJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JLC-Tu-8QY" secondAttribute="bottom" constant="250" id="rla-r2-0aJ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <variation key="default">
@@ -116,10 +136,5 @@
             </variation>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
-        <tapGestureRecognizer id="JvM-ip-0VM">
-            <connections>
-                <action selector="forgetPasswordTap:" destination="-1" id="jTG-HP-w8O"/>
-            </connections>
-        </tapGestureRecognizer>
     </objects>
 </document>

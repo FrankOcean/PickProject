@@ -25,8 +25,9 @@ class LoginViewController: BaseViewController {
     
     }
 
-
-    @IBAction func forgetPasswordTap(_ sender: UITapGestureRecognizer) {
+    @IBAction func RegisterBtnClick(_ sender: UIButton) {
+        
+        self.navigationController?.pushViewController(RegisterViewController(), animated: true)
         
     }
     
