@@ -42,7 +42,9 @@ class RegisterViewController: BaseViewController {
                 print("headers: \(String(describing: response.headers))")
                 print(response.description)
                 
-                alert.dismiss(animated: true, completion: {})
+                DispatchQueue.main.async{
+                    alert.dismiss(animated: true, completion: {})
+                }
             
             }
             
